@@ -1,0 +1,35 @@
+.container{
+    height: 300px;
+    width: 250px;
+    margin: 15px;
+    border-radius: 30px;
+    background: linear-gradient(225deg, #c9931d, #efae22);
+    box-shadow:  -14px 14px 23px #785811,
+                  14px -14px 23px #ffee2f;
+}
+
+.image {
+    width: 100px;
+    border: 1px solid rgb(85, 83, 83);
+    border-radius: 10px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttonContainer button {
+    margin: 20px 20px 0 0;
+    background-color: rgb(216, 69, 69);
+    color: whitesmoke;
+    border: none;
+    border-radius: 3px;
+}
+
+.data {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    text-decoration: none;
+}

@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    margin: auto;
+    width: 45%;
+    justify-content: space-around;
+}
+
+.container input {
+    border-radius: 5px;
+    height: 30px;
+    background: #93f106;
+    transition: background .3s ease;
+    
+}
+
+.container button {
+    height: 30px;
+    background-color: rgb(236, 8, 80);
+    border-radius: 5px;
+    border-color: rgb(112, 2, 2);
+    color: rgb(6, 243, 21);
+}
+
+.error {
+    color: rgb(63, 211, 17);
+}

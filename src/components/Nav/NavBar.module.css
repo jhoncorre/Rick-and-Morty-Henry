@@ -1,0 +1,20 @@
+.container {
+    padding-left: 50px;
+    background-color: rgb(244, 87, 9);
+    border-radius: 10px;
+    width: 60%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .button {
+    margin-right: 20px;
+    padding: 2px 8px;
+    background-color: rgb(236, 8, 80);
+    border-radius: 6px;
+    border: 2px solid #700202;
+    font-size: 14px;
+    color: rgb(6, 243, 21);
+    text-decoration: none;
+}
