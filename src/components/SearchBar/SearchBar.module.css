@@ -15,8 +15,8 @@
 
 .container button {
     height: 30px;
-    background-color: rgb(236, 8, 80);
+    background-color: #ec0850;
     border-radius: 5px;
-    border-color: rgb(112, 2, 2);
+    border-color: #700202;
     color: rgb(6, 243, 21);
 }

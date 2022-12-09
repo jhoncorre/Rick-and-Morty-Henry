@@ -6,9 +6,11 @@ import { NavLink } from "react-router-dom";
 export default function NavBar (props) {
     return (
       <div className={styles.container} >
+        <div>
         <NavLink className={styles.button} to="/home">Home</NavLink>
         <NavLink className={styles.button} to="/favorites">Favorites</NavLink>
         <NavLink className={styles.button} to="/about">About</NavLink>
+       </div>
        <SearchBar onSearch={props.onSearch} />
       </div>
       

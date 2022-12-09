@@ -1,4 +1,6 @@
-import { ADD_FAVORITES, DELETE_FAVORITES } from "./types";
+import { ADD_FAVORITES, DELETE_FAVORITES, FILTER, ORDER } from "./types";
+
+
 
 export function addFavorites(id) {
     return {
@@ -14,3 +16,16 @@ export function deleteFavorites(id) {
 
     }
 }
+export const filterCards = (gender) => {
+    return {
+        type: FILTER,
+        payload: gender,
+    };
+};
+
+export const orderCards = (order) => {
+    return {
+        type: ORDER,
+        payload: order,
+    };
+};
